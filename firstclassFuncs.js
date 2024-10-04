@@ -44,6 +44,7 @@ var c = function(param1){
 c(function(){});
 
 //first class functions: the ability to use functions as values, pass functions as arguments to other functions, return functions from other functions and assign functions to variables.
+//functions are first class cictizens in javascript.
 var a = function(param1){
     return function xyz() {
 
