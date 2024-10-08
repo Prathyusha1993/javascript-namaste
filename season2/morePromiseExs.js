@@ -37,4 +37,4 @@ Promise.race([p1, p2, p3]).then((result) => console.log(result)).catch((error) =
 
 
 //promise.any():
-Promise.any([p1, p2, p3]).then((result) => console.log(result)).catch((error) => console.error(error));
+Promise.any([p1, p2, p3]).then((result) => console.log(result)).catch((error) => {console.error(error); console.log(error.errors)});
