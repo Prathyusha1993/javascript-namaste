@@ -13,5 +13,11 @@ let object = {
 }
 
 function fun(){
-    
+
 }
+
+let object2 = {
+    name: 'Punam'
+}
+//never do this
+object2.__proto__ = object;
